@@ -13,8 +13,8 @@
   .left {
     display: flex;
     justify-content: flex-start;
-    padding-left: 4rem /* 64px */;
-    padding-right: 4rem /* 64px */;
+    padding-left: 1rem /* 64px */;
+    padding-right: 1rem /* 64px */;
     height: 100%;
     width: 100%;
     flex-direction: column;
@@ -50,8 +50,8 @@
   .title {
     margin-top: 2rem;
     margin-bottom:0.5rem;
-    font-size: 2rem ;
-    line-height: 2.7rem;
+    font-size: 2.5rem ;
+    line-height: 2rem;
     font-weight: 500;
     color: var(--white10);
   }
@@ -191,7 +191,9 @@
   
   @media (min-width: 768px) {
     .left {
-      width: 100%;
+      margin-top: 10rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
     }
   }
   
@@ -199,6 +201,8 @@
      .left {
       width: 50%;
       margin-top: 10rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
      }
     .title {
       font-size: 3.75rem /* 60px */;
