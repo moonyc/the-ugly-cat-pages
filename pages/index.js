@@ -5,10 +5,23 @@ import styles from '@/styles/Home.module.css'
 import Banner from '@/components/banner/banner'
 import Card from '@/components/banner/card/card'
 import Section from '@/components/banner/card/sectionCard'
+import { getVideos } from '@/lib/videos'
+
+
+
+export async function getServerSideProps() {
+  const newyorkVideos = await getVideos('gorgeous new york shorts')
+  
+  return {
+    props: {
+      newyorkVideos
+    }
+  }
+}
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
       <Head>
@@ -22,7 +35,7 @@ export default function Home() {
             <Banner />
         </section>
         <section>
-          <Section />
+          <Section title="New York" videos={props.newyorkVideos} size="large"/>
         </section>
       </main>
     </>

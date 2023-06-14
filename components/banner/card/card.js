@@ -8,7 +8,7 @@ export default function Card (props) {
     const {
         imgUrl = "/cardDefaultImg.jpg",
         size = "medium",
-        id = 0
+        id
     } = props
     const [imgSrc, setImgSrc] = useState(imgUrl)
     
