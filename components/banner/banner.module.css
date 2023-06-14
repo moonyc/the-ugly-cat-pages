@@ -22,30 +22,36 @@
   }
   
   .glassWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
       padding: 4rem 1rem;
+      max-height: 95%;
   }
   .brandNameWrapper {
     display: flex;
   }
   
   .article {
-    font-size: 3.75rem /* 60px */;
+    font-size: 4rem /* 60px */;
     line-height: 1;
     color: var(--red);
     font-weight: 800;
   }
   
   .brandName {
-    font-size: 1.5rem /* 14px */;
-    line-height: 1.25rem /* 20px */;
+    font-size: 2rem /* 14px */;
+    line-height: 1.7rem /* 20px */;
     color: var(--green10);
     align-self: center;
   }
   
   .title {
     margin-top: 2rem;
+    margin-bottom:0.5rem;
     font-size: 3rem ;
-    line-height: 4rem;
+    line-height: 2.7rem;
     font-weight: 500;
     color: var(--white10);
   }
