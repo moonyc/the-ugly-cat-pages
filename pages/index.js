@@ -10,7 +10,7 @@ import { getVideos } from '@/lib/videos'
 
 
 export async function getServerSideProps() {
-  const newyorkVideos = await getVideos('gorgeous new york shorts')
+  const newyorkVideos = await getVideos('new york skyline view shorts')
   
   return {
     props: {
