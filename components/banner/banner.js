@@ -21,6 +21,14 @@ export default function Banner() {
                             Dictators on Directors
                         </h3>
                     </div>
+                    <div className={styles.playBtnWrapper}>
+                        <button className={styles.button}>
+                            <span>
+                                Play
+                            </span>
+                            <i></i>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div 

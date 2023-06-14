@@ -27,7 +27,7 @@
       justify-content: center;
       align-items: flex-start;
       padding: 4rem 1rem;
-      max-height: 95%;
+      max-height: 70%;
   }
   .brandNameWrapper {
     display: flex;
@@ -59,7 +59,7 @@
   .subTitle {
     font-size: 1.125rem /* 18px */;
     line-height: 1.75rem /* 28px */;
-    color: var(--white30);
+    color: var(--grey20);
     font-weight: 200;
   }
   
@@ -96,7 +96,7 @@
      
       margin-top: 1rem;
       position: relative;
-      background: var(--gray40);
+      background: var(--grey40);
       color: var(--white10);
       text-decoration: none;
       text-transform: uppercase;
@@ -120,8 +120,8 @@
       content: "";
       position: absolute;
       inset: 2px;
-      background: var(--gray40);
-      color: var(--gray40);
+      background: var(--grey40);
+      color: var(--grey40);
     }
     
     .button span {
@@ -142,7 +142,7 @@
       left: 80%;
       top: -2px;
       border: 2px solid var(--green10);
-      background: var(--gray40);
+      background: var(--grey40);
       transition: 0.2s;
     }
     
@@ -160,7 +160,7 @@
       left: 20%;
       bottom: -2px;
       border: 2px solid var(--green10);
-      background: var(--gray40);
+      background: var(--grey40);
       transition: 0.2s;
     }
     
@@ -184,13 +184,13 @@
     
     @keyframes box {
       0% {
-        box-shadow: var(--gray40);
+        box-shadow: var(--grey40);
       }
       50% {
         box-shadow: 0 0 25px var(--green10);
       }
       100% {
-        box-shadow: var(--gray40);
+        box-shadow: var(--grey40);
       }
     }
     
