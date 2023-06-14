@@ -18,7 +18,7 @@
     height: 100%;
     width: 100%;
     flex-direction: column;
-    margin-top: 10rem /* 96px */;
+    margin-top: 5rem /* 96px */;
   }
   
   .glassWrapper {
@@ -70,14 +70,7 @@
     width: 100%;
   }
   
-  .playText {
-    color: rgb(31, 41, 55);
-    font-weight: 600;
-    font-size: 1.125rem /* 18px */;
-    line-height: 1.75rem /* 28px */;
-    padding-left: 0.25rem /* 4px */;
-    text-align: center;
-  }
+ 
   
   .bannerImg {
     position: absolute;
@@ -205,6 +198,7 @@
   @media (min-width: 1024px) {
      .left {
       width: 50%;
+      margin-top: 10rem;
      }
     .title {
       font-size: 3.75rem /* 60px */;
