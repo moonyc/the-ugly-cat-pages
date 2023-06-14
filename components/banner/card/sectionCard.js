@@ -10,6 +10,7 @@ export default function Section() {
             </h2>
             <div className={styles.cardWrapper}>
                 <Card />
+                <Card />
             </div>
         </div>
     )
