@@ -22,7 +22,9 @@ export default function Banner() {
                         </h3>
                     </div>
                     <div className={styles.playBtnWrapper}>
-                        <button className={styles.button}>
+                        <button 
+                        className={styles.button}
+                        onClick={handleOnClick}>
                             <span>
                                 Play
                             </span>
