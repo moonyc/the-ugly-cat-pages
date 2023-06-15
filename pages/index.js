@@ -16,7 +16,7 @@ export async function getServerSideProps() {
   return {
     props: {
       newyorkVideos,
-      puppetHistory
+      franLebowitz
     }
   }
 }
@@ -38,7 +38,7 @@ export default function Home(props) {
         </section>
         <section>
           <Section title="New York" videos={props.newyorkVideos} size="large"/>
-          <Section title="Coding Adventures" videos={props.franLebowitz} size="small"/>
+          <Section title="Fran" videos={props.franLebowitz} size="small"/>
         </section>
       </main>
     </>
