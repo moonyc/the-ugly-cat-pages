@@ -9,7 +9,7 @@ import { getVideos } from '@/lib/videos'
 
 
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const newyorkVideos = await getVideos('new york skyline view shorts')
   const franLebowitz = await getVideos('fran lebowitz')
   
