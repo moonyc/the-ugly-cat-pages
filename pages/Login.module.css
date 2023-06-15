@@ -58,6 +58,7 @@
     display: flex;
     z-index: 10;
     justify-content: center;
+    align-items: center;
   }
   
   .mainWrapper {
