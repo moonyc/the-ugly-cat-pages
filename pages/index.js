@@ -33,7 +33,11 @@ export default function Home(props) {
       <main className={`${styles.main} ${inter.className}`}>
         <NavBar />
         <section>
-            <Banner />
+            <Banner 
+              title="Sasha and TaylorSwift"
+              subTitle="Dictators on Directors"
+              imgUrl="/bannerImg.jpg"
+            />
         </section>
         <section>
           <Section title="New York" videos={props.newyorkVideos} size="large"/>

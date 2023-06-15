@@ -1,7 +1,7 @@
 import cls from 'classnames'
 import styles from './banner.module.css'
 
-export default function Banner() {
+export default function Banner({title, subTitle, imgUrl}) {
      const handleOnClick = () => {
         return console.log('clink')
     }
@@ -15,10 +15,10 @@ export default function Banner() {
                             <h3 className={styles.brandName}> Ugly <br/> Cat</h3>
                         </div>
                         <h1 className={styles.title}>
-                            Sasha and Taylor Swift
+                            {title}
                         </h1>
                         <p className={styles.subTitle}>
-                            Dictators on Directors
+                            {subTitle}
                         </p>
                     </div>
                     <div className={styles.playBtnWrapper}>
@@ -36,7 +36,7 @@ export default function Banner() {
             <div 
                 className={styles.bannerImg}
                 style={{
-                    backgroundImage: `url('bannerImg.jpg')`
+                    backgroundImage: `url(${imgUrl})`
                 }}
             />
         </div>
