@@ -31,12 +31,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    width: 4rem;
     
 }
 
 .theUglyCat {
-    font-weight: 200;
     font-size: 1rem;
+    line-height: 0.95rem;
 }
   
   .navItems {
@@ -93,7 +94,7 @@
   .linkName {
     margin-top: 1rem;
     position: relative;
-    background: var(--gray40);
+    background: var(--grey40);
     color: var(--white10);
     text-decoration: none;
     text-transform: uppercase;

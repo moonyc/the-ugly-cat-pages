@@ -57,10 +57,10 @@
   }
   
   .subTitle {
-    font-size: 1.125rem /* 18px */;
+    font-size: 1.7rem /* 18px */;
     line-height: 1.75rem /* 28px */;
-    color: var(--grey20);
-    font-weight: 200;
+    color: var(--white20);
+    
   }
   
   .playBtnWrapper {

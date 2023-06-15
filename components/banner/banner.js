@@ -11,15 +11,15 @@ export default function Banner() {
                 <div className={styles.left}>
                     <div className={cls("glass", styles.glassWrapper)}>
                         <div className={styles.brandNameWrapper}>
-                            <p className={styles.article}>The</p>
-                            <p className={styles.brandName}> Ugly <br/> Cat</p>
+                            <h3 className={styles.article}>The</h3>
+                            <h3 className={styles.brandName}> Ugly <br/> Cat</h3>
                         </div>
                         <h1 className={styles.title}>
                             Sasha and Taylor Swift
                         </h1>
-                        <h3 className={styles.subtitle}>
+                        <p className={styles.subTitle}>
                             Dictators on Directors
-                        </h3>
+                        </p>
                     </div>
                     <div className={styles.playBtnWrapper}>
                         <button 
