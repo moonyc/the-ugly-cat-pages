@@ -3,7 +3,7 @@ import styles from './section-cards.module.css'
 
 
 export default function Section(props) {
-    const {title, videos = [], size} = props
+    const {title, videos = [{imgUrl: '/cardDefaultImg.jpg'}], size} = props
     return (
         <div className={styles.container}>
             <h2 className={styles.title}>
