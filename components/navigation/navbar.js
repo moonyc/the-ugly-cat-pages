@@ -7,7 +7,6 @@ export default function NavBar() {
     const router = useRouter()
     const [dropdown, setDropdown] = useState(false)
 
-
     const handleOnClickDropDown = (e) => {
         e.preventDefault()
         return setDropdown(!dropdown)

@@ -11,10 +11,8 @@
   }
   
   .wrapper {
-    padding-left: 1rem /* 16px */;
-    
     display: flex;
-    padding: 1.25rem /* 20px */;
+    padding: 1.3rem 0rem 1.3rem 0.3rem; /* 20px */;
   }
   
   .logoLink {
