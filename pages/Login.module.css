@@ -185,5 +185,7 @@
   
     .mainWrapper {
       margin-top: 2rem /* 128px */;
+      padding-left: 2rem;
+    padding-right: 2rem;
     }
   }

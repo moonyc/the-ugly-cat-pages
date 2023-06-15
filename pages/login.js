@@ -2,13 +2,40 @@ import Image from 'next/image'
 import styles from './Login.module.css'
 import cls from 'classnames'
 import { useRouter } from 'next/router'
+import { useState } from 'react'
+import { magic } from '@/lib/magic'
 
 
 export default function Login() {
     const router = useRouter()
-    const handleLoginWithEmail = (e) => {
+    const [email, setEmail] = useState("")
+    const [userMsg, setUserMsg] = useState("")
+    
+    const handleOnChangeEmail = (e) => {
+        setUserMsg("")
+        const email = e.target.value
+        setEmail(email)
+    }
+    const handleLoginWithEmail = async (e) => {
         e.preventDefault()
-        return router.push('/')
+        if(email) {
+            if( email === "municfara@gmail.com") {
+                try {
+                    const didToken = await magic.auth.loginWithEmailOTP({ email: email })
+                    if(didToken) {
+                        router.push('/')
+                    }
+
+                } catch (error) {
+                    console.error("Something went wrong in the login", error)
+                }
+
+            } else {
+                setUserMsg("Something went wrong 😿")
+            }
+        } else {
+            setUserMsg("Can you enter a valid email address? 😿")
+        }
 
     }
     return (
@@ -38,10 +65,12 @@ export default function Login() {
                     <input 
                     type='text'
                     placeholder='diderot@thecat.pow'
-                    className={styles.emailInput}>
+                    className={styles.emailInput}
+                    onChange={handleOnChangeEmail}
+                    >
 
                     </input>
-                    <p className={styles.userMsg}>oh no 😿</p>
+                    <p className={styles.userMsg}>{userMsg}</p>
                     <button 
                     onClick={handleLoginWithEmail}
                     className={styles.loginBtn}>
