@@ -11,7 +11,7 @@ import { getVideos } from '@/lib/videos'
 
 export async function getServerSideProps() {
   const newyorkVideos = await getVideos('new york skyline view shorts')
-  const puppetHistory = await getVideos('puppet history')
+  const franLebowitz = await getVideos('fran lebowitz')
   
   return {
     props: {
@@ -38,7 +38,7 @@ export default function Home(props) {
         </section>
         <section>
           <Section title="New York" videos={props.newyorkVideos} size="large"/>
-          <Section title="Coding Adventures" videos={props.puppetHistory} size="small"/>
+          <Section title="Coding Adventures" videos={props.franLebowitz} size="small"/>
         </section>
       </main>
     </>
