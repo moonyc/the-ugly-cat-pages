@@ -1,20 +1,28 @@
 import { useRouter } from 'next/router'
 import Image from 'next/image'
+import { useState } from 'react'
 import styles from './navbar.module.css'
 
 export default function NavBar() {
     const router = useRouter()
-    const handleOnClickDropDown = () => {
-        return console.log('dropdown')
+    const [dropdown, setDropdown] = useState(false)
+
+
+    const handleOnClickDropDown = (e) => {
+        e.preventDefault()
+        return setDropdown(!dropdown)
     }
-    const handleOnClickSignOut = () => {
+    const handleOnClickSignOut = (e) => {
+        e.preventDefault()
         return router.push('/login')
     }
-    const handleOnClickHome = () => {
+    const handleOnClickHome = (e) => {
+        e.preventDefault()
         return router.push('/')
     }
-    const handleOnClickMyList = () => {
-        return router.push('/mylist')
+    const handleOnClickMyList = (e) => {
+        e.preventDefault()
+        return router.push('/browse/mylist')
     }
     
     return (
@@ -41,10 +49,14 @@ export default function NavBar() {
                     <button className={styles.usernameBtn} onClick={handleOnClickDropDown}>
                         <p className={styles.username}>sasha@email.com</p>
                     </button>
-                    <div className={styles.navDropdown}>
-                        <p className={styles.linkName} onClick={handleOnClickSignOut}> Sign Out</p>
-                        <div className={styles.lineWrapper}></div>
-                    </div>
+                    {
+                        dropdown && (
+                            <div className={styles.navDropdown}>
+                                <p className={styles.linkName} onClick={handleOnClickSignOut}> Sign Out</p>
+                                <div className={styles.lineWrapper}></div>
+                            </div>
+                        )
+                    }
                 </nav>
             </div>
         </div>
