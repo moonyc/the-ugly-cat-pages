@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Banner from '@/components/banner/banner'
-import Card from '@/components/banner/card/card'
-import Section from '@/components/banner/card/sectionCard'
+import Section from '@/components/card/sectionCard'
 import { getVideos } from '@/lib/videos'
+import NavBar from '@/components/navigation/navbar'
 
 
 
@@ -33,6 +32,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
+        <NavBar />
         <section>
             <Banner />
         </section>
