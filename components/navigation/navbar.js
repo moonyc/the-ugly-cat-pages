@@ -6,7 +6,7 @@ import { magic } from '@/lib/magic'
 
 export default function NavBar() {
     const router = useRouter()
-    const [username, setUsername] =useState("cat")
+    const [username, setUsername] =useState("")
     const [dropdown, setDropdown] = useState(false)
 
     useEffect(() => {
