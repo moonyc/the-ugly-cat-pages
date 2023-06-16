@@ -14,6 +14,7 @@ export default function Video () {
             >
                 <iframe
                     className={styles.videoPlayer}
+                    allow="fullscreen"
                     id="ytplayer"
                     type="text/html"
                     width="100%"
