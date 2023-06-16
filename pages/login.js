@@ -40,7 +40,7 @@ export default function Login() {
         e.preventDefault()
         setIsLoading(true)
         if(email) {
-            if(email === "municfara@gmail.com") {
+            if(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
                 try {
                     const didToken = await magic.auth.loginWithEmailOTP({ email })
                     console.log(didToken)
