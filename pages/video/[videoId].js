@@ -5,7 +5,6 @@ import styles from '../../styles/Video.module.css'
 export default function Video () {
     const router = useRouter()
     return (
-        <div className={styles.container}>
             <Modal 
                 isOpen={true}
                 contentLabel="Watch the video"
@@ -13,8 +12,16 @@ export default function Video () {
                 className={styles.modal}
                 overlayClassName={styles.overlay}
             >
-                <div>Modal Body</div>
+                <iframe
+                    className={styles.videoPlayer}
+                    id="ytplayer"
+                    type="text/html"
+                    width="100%"
+                    height="360"
+                    src={`https://www.youtube.com/embed/${router.query.videoId}?autoplay=0&origin=http://example.com&controls=0&rel=1`}
+                    frameborder="0"
+                />
             </Modal>
-        </div>
+
     )
 }
