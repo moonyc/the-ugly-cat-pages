@@ -12,6 +12,7 @@ export default function Login() {
     const router = useRouter()
     const [email, setEmail] = useState("")
     const [userMsg, setUserMsg] = useState("")
+    const [isLoading, setIsLoading] = useState(false)
     
     const handleOnChangeEmail = (e) => {
         setUserMsg("")
@@ -21,6 +22,7 @@ export default function Login() {
 
     const handleLoginWithEmail = async (e) => {
         e.preventDefault()
+        setIsLoading(true)
         if(email) {
             if(email === "municfara@gmail.com") {
                 try {
@@ -28,17 +30,21 @@ export default function Login() {
                     console.log(didToken)
                     if(didToken) {
                         router.push('/')
+                        setIsLoading(false)
                     }
 
                 } catch (error) {
                     console.error("Something went wrong in the login", error)
+                    setIsLoading(false)
                 }
 
             } else {
                 setUserMsg("Something went wrong 😿")
+                setIsLoading(false)
             }
         } else {
             setUserMsg("Can you enter a valid email address? 😿")
+            setIsLoading(false)
         }
 
     }
@@ -81,7 +87,7 @@ export default function Login() {
                     <button 
                     onClick={handleLoginWithEmail}
                     className={styles.loginBtn}>
-                        Sign In
+                        { isLoading ? "Loading" : "Sign In"}
                     </button>
                 </div>
             </main>
