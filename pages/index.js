@@ -34,7 +34,7 @@ export default function Home(props) {
         <NavBar />
         <section>
             <Banner 
-              videoId="W86cTIoMv2U"
+              videoId="y8kTYCex8RU"
               title="Sasha and TaylorSwift"
               subTitle="Dictators on Directors"
               imgUrl="/bannerImg.jpg"
