@@ -6,16 +6,16 @@ import { magic } from '@/lib/magic'
 export default function App({ Component, pageProps }) {
   const router = useRouter()
 
-  useEffect(() => {
-    const handleLogin = async () => {
-      const isLoggedIn = await magic.user.isLoggedIn()
-      if(isLoggedIn) {
-        router.push('/')
-      } else {
-        router.push('/login')
-      }
-    }
-    handleLogin()
-  }, [])
+  // useEffect(() => {
+  //   const handleLogin = async () => {
+  //     const isLoggedIn = await magic.user.isLoggedIn()
+  //     if(isLoggedIn) {
+  //       router.push('/')
+  //     } else {
+  //       router.push('/login')
+  //     }
+  //   }
+  //   handleLogin()
+  // }, [])
   return <Component {...pageProps} />
 }

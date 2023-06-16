@@ -6,7 +6,7 @@ import { magic } from '@/lib/magic'
 
 export default function NavBar() {
     const router = useRouter()
-    const [username, setUsername] =useState("")
+    const [username, setUsername] =useState("cat")
     const [dropdown, setDropdown] = useState(false)
 
     useEffect(() => {
@@ -31,8 +31,10 @@ export default function NavBar() {
     const handleOnClickSignOut = async (e) => {
         e.preventDefault()
         try {
-            await magic.user.logout()
-            router.push('/')
+            const isLoggedOut = await magic.user.logout()
+            if(isLoggedOut) {
+                router.push('/login')
+            }
         } catch (error) {
             console.log("We couldn't log you out", error)
             router.push('/')
@@ -75,7 +77,7 @@ export default function NavBar() {
                     {
                         dropdown && (
                             <div className={styles.navDropdown}>
-                                <a className={styles.linkName} onClick={handleOnClickSignOut}> Sign Out</a>
+                                <p className={styles.linkName} onClick={handleOnClickSignOut}> Sign Out</p>
                                 <div className={styles.lineWrapper}></div>
                             </div>
                         )
