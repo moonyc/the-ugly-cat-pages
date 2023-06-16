@@ -17,5 +17,6 @@ export default function App({ Component, pageProps }) {
     }
     handleLogin()
   }, [])
+  
   return <Component {...pageProps} />
 }

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './Login.module.css'
 import cls from 'classnames'
 import { useRouter } from 'next/router'
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { magic } from '@/lib/magic'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -13,6 +13,22 @@ export default function Login() {
     const [email, setEmail] = useState("")
     const [userMsg, setUserMsg] = useState("")
     const [isLoading, setIsLoading] = useState(false)
+    const signInButton = useRef(null)
+
+    useEffect(() => {
+        const listener = event => {
+          if (event.code === "Enter" || event.code === "NumpadEnter") {
+            signInButton.current.click()
+            console.log('click')
+            event.preventDefault();
+            // callMyFunction();
+          }
+        };
+        document.addEventListener("keydown", listener);
+        return () => {
+          document.removeEventListener("keydown", listener);
+        };
+      }, []);
     
     const handleOnChangeEmail = (e) => {
         setUserMsg("")
@@ -85,6 +101,8 @@ export default function Login() {
                     </input>
                     <p className={styles.userMsg}>{userMsg}</p>
                     <button 
+                    ref={signInButton}
+                    type="submit"
                     onClick={handleLoginWithEmail}
                     className={styles.loginBtn}>
                         { isLoading ? "Loading" : "Sign In"}
