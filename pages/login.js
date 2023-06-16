@@ -19,9 +19,10 @@ export default function Login() {
     const handleLoginWithEmail = async (e) => {
         e.preventDefault()
         if(email) {
-            if( email === "municfara@gmail.com") {
+            if(email === "municfara@gmail.com") {
                 try {
-                    const didToken = await magic.auth.loginWithEmailOTP({ email: email })
+                    const didToken = await magic.auth.loginWithEmailOTP({ email })
+                    console.log(didToken)
                     if(didToken) {
                         router.push('/')
                     }
