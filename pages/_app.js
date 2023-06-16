@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 import { useEffect, useState} from 'react'
 import { useRouter } from 'next/router'
 import { magic } from '@/lib/magic'
+import Loading from '@/components/loading/loading'
 
 export default function App({ Component, pageProps }) {
   const router = useRouter()
@@ -32,5 +33,5 @@ export default function App({ Component, pageProps }) {
     }
   },[router])
 
-  return isLoading ? <div>Loading...</div> : <Component {...pageProps} />
+  return isLoading ? <Loading /> : <Component {...pageProps} />
 }
