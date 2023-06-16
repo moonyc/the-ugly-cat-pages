@@ -1,9 +1,11 @@
 import cls from 'classnames'
 import styles from './banner.module.css'
+import { useRouter } from 'next/router'
 
-export default function Banner({title, subTitle, imgUrl}) {
-     const handleOnClick = () => {
-        return console.log('clink')
+export default function Banner({title, subTitle, imgUrl, videoId}) {
+     const router = useRouter()
+     const handleOnPlay = () => {
+        router.push(`/video/${videoId}`)
     }
     return (
         <div className={styles.container}>
@@ -24,7 +26,7 @@ export default function Banner({title, subTitle, imgUrl}) {
                     <div className={styles.playBtnWrapper}>
                         <button 
                         className={styles.button}
-                        onClick={handleOnClick}>
+                        onClick={handleOnPlay}>
                             <span>
                                 Play
                             </span>
