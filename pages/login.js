@@ -4,6 +4,8 @@ import cls from 'classnames'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { magic } from '@/lib/magic'
+import Head from 'next/head'
+import Link from 'next/link'
 
 
 export default function Login() {
@@ -16,6 +18,7 @@ export default function Login() {
         const email = e.target.value
         setEmail(email)
     }
+
     const handleLoginWithEmail = async (e) => {
         e.preventDefault()
         if(email) {
@@ -41,9 +44,12 @@ export default function Login() {
     }
     return (
         <div className={styles.container}>
+        <Head>
+            <title>The Ugly Cat Sign In</title>
+        </Head>
             <header className={styles.header}>
                 <div className={styles.headerWrapper}>
-                    <a className={styles.logoLink}>
+                    <Link className={styles.logoLink} href="/">
                         <div className={styles.logoWrapper}>
                             <Image
                               src="/the-ugly-cat.svg"
@@ -55,7 +61,7 @@ export default function Login() {
                                 The Ugly Cat
                             </p>
                         </div>
-                    </a>        
+                    </Link>        
                 </div>
             </header>
             <main className={styles.main}>
