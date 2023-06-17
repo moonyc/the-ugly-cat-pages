@@ -6,17 +6,15 @@
     height: 100vh;
     width: 100%;
     background-color: var(--black);
-    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%));
+    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),
+      url(/BG6.jpg);
     background-size: cover;
     background-position: "50% 50%";
     position: absolute;
     bottom: 0px;
   }
   
-  .imageBackground {
-    z-index:0;
-  }
-
+  
   .header {
     display: flex;
     justify-content: space-between;

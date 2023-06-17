@@ -66,14 +66,6 @@ export default function Login() {
     }
     return (
         <div className={styles.container}>
-        <Image
-          className={styles.imageBackground}
-          src="/BG6.webp"
-          alt="background"
-          fill
-          cover
-          center
-        />
         <Head>
             <title>The Ugly Cat Sign In</title>
             <meta name="description" content="A streaming platform - login" />
