@@ -6,7 +6,7 @@
     height: 100vh;
     width: 100%;
     background-color: var(--black);
-    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%));
+    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/BG6.webp');
     background-size: cover;
     background-position: "50% 50%";
     position: absolute;
