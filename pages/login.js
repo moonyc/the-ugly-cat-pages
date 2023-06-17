@@ -68,6 +68,8 @@ export default function Login() {
         <div className={styles.container}>
         <Head>
             <title>The Ugly Cat Sign In</title>
+            <meta name="description" content="A streaming platform - login" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
             <header className={styles.header}>
                 <div className={styles.headerWrapper}>
