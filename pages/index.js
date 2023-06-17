@@ -7,7 +7,7 @@ import { getVideos } from '@/lib/videos'
 import NavBar from '@/components/navigation/navbar'
 
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const newyorkVideos = await getVideos('new york skyline view shorts')
   const franLebowitz = await getVideos('fran lebowitz')
   
