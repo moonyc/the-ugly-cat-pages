@@ -18,13 +18,7 @@ export default function Video () {
     const { title, publishTime, description, channelTitle, viewCount } = video
     
     return (
-            <>
-                <Head>
-            <title>The Ugly Cat Sign In</title>
-            <meta name="description" content="A streaming platform - login" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            </Head>
-            <main>
+            
             <Modal 
                 isOpen={true}
                 contentLabel="Watch the video"
@@ -73,8 +67,7 @@ export default function Video () {
                     </div>
                 </div>
             </Modal>
-            </main>
-            </>
+            
 
     )
 }
