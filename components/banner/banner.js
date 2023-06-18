@@ -1,7 +1,6 @@
 import cls from 'classnames'
 import styles from './banner.module.css'
 import { useRouter } from 'next/router'
-import Image from 'next/image'
 
 export default function Banner({title, subTitle, imgUrl, videoId}) {
      const router = useRouter()
@@ -38,19 +37,10 @@ export default function Banner({title, subTitle, imgUrl, videoId}) {
             </div>
             <div 
                 className={styles.bannerImg}
-                // style={{
-                //     backgroundImage: `url(${imgUrl})`
-                // }}
-            >
-            <Image
-                className={styles.imageGradient}
-                src={imgUrl}
-                fill
-                priority={true}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                alt="banner image"
+                style={{
+                    backgroundImage: `url(${imgUrl})`
+                }}
             />
-            </div>
         </div>
     )
 }
