@@ -2,7 +2,6 @@ import { useRouter } from "next/router"
 import Modal from 'react-modal'
 import styles from '../../styles/Video.module.css'
 import clsx from 'classnames'
-import Head from "next/head"
 
 export default function Video () {
     const router = useRouter()
@@ -18,8 +17,9 @@ export default function Video () {
     const { title, publishTime, description, channelTitle, viewCount } = video
     
     return (
-            
+        <div className={styles.container}>
             <Modal 
+                ariaHideApp={false}
                 isOpen={true}
                 contentLabel="Watch the video"
                 onRequestClose={() => router.back()}
@@ -33,7 +33,7 @@ export default function Video () {
                     width="100%"
                     height="800"
                     src={`https://www.youtube.com/embed/${router.query.videoId}?autoplay=0&origin=http://example.com&controls=0&rel=1`}
-                    frameborder="0"
+                    frameBorder="0"
                 />
                 <div className={styles.modalBody}>
                     <div className={styles.modalBodyContent}>
@@ -67,7 +67,6 @@ export default function Video () {
                     </div>
                 </div>
             </Modal>
-            
-
+        </div>
     )
 }

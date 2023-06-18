@@ -29,6 +29,19 @@ export default function Login() {
           document.removeEventListener("keydown", listener);
         };
       }, []);
+
+      useEffect(() => {
+        const handleComplete = () => {
+          setIsLoading(false);
+        };
+        router.events.on("routeChangeComplete", handleComplete);
+        router.events.on("routeChangeError", handleComplete);
+    
+        return () => {
+          router.events.off("routeChangeComplete", handleComplete);
+          router.events.off("routeChangeError", handleComplete);
+        };
+      }, [router]);
     
     const handleOnChangeEmail = (e) => {
         setUserMsg("")
@@ -80,6 +93,7 @@ export default function Login() {
                               width={50}
                               height={50}
                               alt="the ugly cat logo"
+                              priority={true}
                               />
                             <p className={styles.theUglyCat}>
                                 The Ugly Cat
