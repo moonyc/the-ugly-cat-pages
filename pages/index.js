@@ -36,7 +36,7 @@ export default function Home(props) {
             <Banner 
               videoId="y8kTYCex8RU"
               title="Sasha and TaylorSwift"
-              subTitle="Dictators on Directors"
+              subTitle="Directors on Directors"
               imgUrl="/bannerImg.jpg"
             />
         </section>
