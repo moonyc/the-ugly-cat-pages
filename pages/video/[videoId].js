@@ -2,22 +2,50 @@ import { useRouter } from "next/router"
 import Modal from 'react-modal'
 import styles from '../../styles/Video.module.css'
 import clsx from 'classnames'
+import { getYoutubeVideoById } from "@/lib/videos"
+import NavBar from "@/components/navigation/navbar"
 
-export default function Video () {
+export async function getStaticProps(context) {
+    // const video = {
+    //     title : 'Sasha and Taylor Swift',
+    //     publishTime: '2023-01-03',
+    //     description: "Songwriter pours herself into a wild lizard-hunting-themed night with Sasha The Cutie tutie cat.",
+    //     channelTitle: "Taylor Swift Vevo",
+    //     viewCount: 100000
+    // }
+   
+    const videoId = context.params.videoId
+    const videoArray = await getYoutubeVideoById(videoId)
+    return {
+        props: {
+            video: videoArray.length > 0 ? videoArray[0] : {}
+        },
+        revalidate: 10,
+    }
+}
+
+export async function getStaticPaths() {
+    const listOfVideos = ["y8kTYCex8RU", "kgrV3_g9rYY", "nl8o9PsJPAQ"]
+   
+    // Get the paths we want to pre-render based on posts
+    const paths = listOfVideos.map((videoId) => ({
+      params: { videoId },
+    }))
+   
+    // We'll pre-render only these paths at build time.
+    // { fallback: 'blocking' } will server-render pages
+    // on-demand if the path doesn't exist.
+    return { paths, fallback: 'blocking' }
+  }
+   
+export default function Video ({video}) {
     const router = useRouter()
 
-    const video = {
-        title : 'Sasha and Taylor Swift',
-        publishTime: '2023-01-03',
-        description: "Songwriter pours herself into a wild lizard-hunting-themed night with Sasha The Cutie tutie cat.",
-        channelTitle: "Taylor Swift Vevo",
-        viewCount: 100000
-    }
-
-    const { title, publishTime, description, channelTitle, viewCount } = video
+    const { title, publishTime, description, channelTitle, statistics : { viewCount } = { viewCount: 0} } = video
     
     return (
         <div className={styles.container}>
+        <NavBar />
             <Modal 
                 ariaHideApp={false}
                 isOpen={true}
@@ -50,7 +78,7 @@ export default function Video () {
                         </div>
                         <div className={styles.col2}>
                             <p className={clsx(styles.subText, styles.subTextWrapper)}>
-                                <span className={styles.textColor}> Cast: </span>
+                                <span className={styles.textColor}> Channel: </span>
                                 <span className={styles.channelTitle}>
                                     {channelTitle}
                                 </span>
