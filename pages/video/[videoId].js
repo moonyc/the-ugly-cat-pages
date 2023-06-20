@@ -6,14 +6,7 @@ import { getYoutubeVideoById } from "@/lib/videos"
 import NavBar from "@/components/navigation/navbar"
 
 export async function getStaticProps(context) {
-    // const video = {
-    //     title : 'Sasha and Taylor Swift',
-    //     publishTime: '2023-01-03',
-    //     description: "Songwriter pours herself into a wild lizard-hunting-themed night with Sasha The Cutie tutie cat.",
-    //     channelTitle: "Taylor Swift Vevo",
-    //     viewCount: 100000
-    // }
-   
+
     const videoId = context.params.videoId
     const videoArray = await getYoutubeVideoById(videoId)
     return {

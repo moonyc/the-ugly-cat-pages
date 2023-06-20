@@ -1,0 +1,863 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "kC57NzltTz5m3AYAdfT_A4jAnUI",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "IT",
+    "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 25
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "jqasFoREhMF28eDiBRw2tanEJg4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "767_aceI0pI"
+        },
+        "snippet": {
+          "publishedAt": "2022-10-11T04:14:53Z",
+          "channelId": "UCWtGZYYNIpiA8DjUHe9ozBg",
+          "title": "Best New York City views at Night | Romanticized 😍🥰🔥😱‼️#shorts #nyc #nightlife #outsidetours",
+          "description": "New York City Skyline at night in Lower Manhattan. #shorts #outsidetours #walkingtour #nyc #nycvlog #manhattan #nightlife ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/767_aceI0pI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/767_aceI0pI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/767_aceI0pI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Outside Tours",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-10-11T04:14:53Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "mMYdUdCYWquodhamupnozCgdVvM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "5obyCS24-_4"
+        },
+        "snippet": {
+          "publishedAt": "2022-07-31T16:15:01Z",
+          "channelId": "UCj3-Ehhs_fnTBJDRfp-TNTQ",
+          "title": "Roosevelt Island Tramway: Skyline View of Manhattan, New York City, USA #shorts #4k",
+          "description": "Ciao! Feel free to like, share and comment! If you enjoy this video, please subscribe to my channel and let's keep in touch ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/5obyCS24-_4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/5obyCS24-_4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/5obyCS24-_4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Andrew Molchan",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-07-31T16:15:01Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "AKo05ZKsxCHYRQzMG99Psmxyqek",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "iEliSAKa8Sc"
+        },
+        "snippet": {
+          "publishedAt": "2022-10-14T12:30:15Z",
+          "channelId": "UC9hCQoT-VY7vVRaC62WJOJw",
+          "title": "Visiting a $33 MILLION Penthouse in New York City #shorts",
+          "description": "what the heck subscribe for more adventures! Follow my Instagram: https://www.instagram.com/jordentually/ The 360 camera I ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/iEliSAKa8Sc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/iEliSAKa8Sc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/iEliSAKa8Sc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Jorden Tually",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-10-14T12:30:15Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "CW2UtLiiUiYuHAPhG4-7zZMEy1w",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "FSPIs1ZgTs0"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-24T20:00:03Z",
+          "channelId": "UCXfF1hCJkFLKjEZxfpcc1aQ",
+          "title": "Stunning New York Skyline Views Onboard American ERJ-170! #Shorts",
+          "description": "Fly with me on an American Eagle (Operated by Republic Airways) Embraer ERJ-170 as we arrive at LaGuardia Airport (LGA).",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/FSPIs1ZgTs0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/FSPIs1ZgTs0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/FSPIs1ZgTs0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Skylite Productions",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-24T20:00:03Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "lhgQREU2wL-wR9RCDXgnHrtDP-0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "m_BhnEhMAo4"
+        },
+        "snippet": {
+          "publishedAt": "2022-09-03T12:39:12Z",
+          "channelId": "UCuwyRp-e2DL3D0JFgaD2Fkg",
+          "title": "USA | New York City walk 4K #shorts #usa #newyorkcity",
+          "description": "USA New York City.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/m_BhnEhMAo4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/m_BhnEhMAo4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/m_BhnEhMAo4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Tour With Me ",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-09-03T12:39:12Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "oK_B0sgV9Z42ZIbP7M1q-l67ZLQ",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "kFV8yX_TlyA"
+        },
+        "snippet": {
+          "publishedAt": "2021-08-28T10:00:18Z",
+          "channelId": "UCj3-Ehhs_fnTBJDRfp-TNTQ",
+          "title": "NEW YORK CITY streets: walking in Manhattan, NYC, USA - July, 2021#shorts",
+          "description": "Hey, wanna explore the city with me? Feel free to like, share and comment! If you enjoy this video, please subscribe to my channel ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kFV8yX_TlyA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kFV8yX_TlyA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kFV8yX_TlyA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Andrew Molchan",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-08-28T10:00:18Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "yTVn99V4RBZBquRe0hC_XFmXmU0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "4MloQutsGuw"
+        },
+        "snippet": {
+          "publishedAt": "2023-06-08T18:59:50Z",
+          "channelId": "UCuFFtHWoLl5fauMMD5Ww2jA",
+          "title": "Watch the New York City sky turn orange #shorts",
+          "description": "Hundreds of fires continue to burn across Canada, leading to thick plumes of smoke from Ontario and Quebec driving air quality to ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/4MloQutsGuw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/4MloQutsGuw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/4MloQutsGuw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "CBC News",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-06-08T18:59:50Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "kOPVUI-tg58C3QzvdG6S8fNUvnQ",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "A8WbjcoVMj0"
+        },
+        "snippet": {
+          "publishedAt": "2021-06-23T11:36:49Z",
+          "channelId": "UC_wjaG3I92YAegRxrF-vWGA",
+          "title": "New York City in 60 seconds 🗽 #Shorts",
+          "description": "In celebration of NYC roaring back stronger than ever! Nothing like New York City in the summer. Watch the full virtual reality ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/A8WbjcoVMj0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/A8WbjcoVMj0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/A8WbjcoVMj0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "ESCAPE NOW",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-06-23T11:36:49Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Cp129wfxU82FHSYafhnr25pucZg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "uKK9Hbjg8o8"
+        },
+        "snippet": {
+          "publishedAt": "2023-05-20T09:53:07Z",
+          "channelId": "UCetYFjkhf7S7LwiuJxeC28g",
+          "title": "New York Skyline at Twilight #Shorts",
+          "description": "My Equipment Camera: https://amzn.to/3j58ZPQ Camera Lenses: https://amzn.to/3mYM6yy Video Editing: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/uKK9Hbjg8o8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/uKK9Hbjg8o8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/uKK9Hbjg8o8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Dream Trips",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-05-20T09:53:07Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "hOSUDSJkwOSLMstUPbefLnSi-lA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "v1zCExzOYcY"
+        },
+        "snippet": {
+          "publishedAt": "2021-10-14T21:29:33Z",
+          "channelId": "UC0Jm_fBk8YY1mG9XtTYVBNw",
+          "title": "the best view in new york city #shorts",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/v1zCExzOYcY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/v1zCExzOYcY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/v1zCExzOYcY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Willy Wonka Tiktok / Duke Depp",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-10-14T21:29:33Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "adiVrWTfiTBA6n5nPL6tm3e9GDg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "no6A4iJe70M"
+        },
+        "snippet": {
+          "publishedAt": "2022-11-02T18:20:58Z",
+          "channelId": "UC4NYf7uMqN4Hjgj4iREYiMg",
+          "title": "Breathtaking view on the NYC Skyline by night #Shorts",
+          "description": "Experience one of the most breathtaking views of the New York City skyline by night in these short Shorts. From the heights of ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/no6A4iJe70M/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/no6A4iJe70M/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/no6A4iJe70M/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "The Creative Insider",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-11-02T18:20:58Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "vBKuVxVthggeekMMxjsucHsLoy4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "ILn2iKfb-FI"
+        },
+        "snippet": {
+          "publishedAt": "2023-02-03T14:42:51Z",
+          "channelId": "UCJd2HkqfeIvmLDzVjQlYb_g",
+          "title": "New York Evolution 2023-1840 #shorts #history #evolution #newyork #city #usa",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ILn2iKfb-FI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ILn2iKfb-FI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ILn2iKfb-FI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Zietix",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-02-03T14:42:51Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "utkVAxep1ixpS6oMbouOJWXOaz0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "urqaHt461Os"
+        },
+        "snippet": {
+          "publishedAt": "2022-02-12T11:44:08Z",
+          "channelId": "UCuwyRp-e2DL3D0JFgaD2Fkg",
+          "title": "New York City, best view of Times Square, Manhattan #shorts #newyork #travel",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/urqaHt461Os/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/urqaHt461Os/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/urqaHt461Os/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Tour With Me ",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-02-12T11:44:08Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "V2NYWoiVwlFY4q19n-K9RrMm4pM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "pZ3SY0bdRdM"
+        },
+        "snippet": {
+          "publishedAt": "2023-06-08T19:41:00Z",
+          "channelId": "UC8p1vwvWtl6T73JiExfWs1g",
+          "title": "Timelapse shows New York City engulfed by Canadian wildfire smoke #shorts",
+          "description": "news #newyorkcity #canada.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pZ3SY0bdRdM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pZ3SY0bdRdM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pZ3SY0bdRdM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "CBS News",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-06-08T19:41:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "qObOiOBnbPCX2HyT02ud1pnfRsA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "V4fVUAxGhUY"
+        },
+        "snippet": {
+          "publishedAt": "2023-06-13T21:00:11Z",
+          "channelId": "UC4P8ylz0_93VaFDtO8CXRNQ",
+          "title": "GIVING AWAY SILVER IN THE STREETS OF NEW YORK CITY! #shorts",
+          "description": "Giving away silver bullets in the streets of New York City's Diamond District... with a surprising turn of events. #TraxNYC #Jewelry ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/V4fVUAxGhUY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/V4fVUAxGhUY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/V4fVUAxGhUY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "TraxNYC Diamond Jewelry",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-06-13T21:00:11Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "8YMsffq26-eZSnFBt9tDzKt2tic",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "APN48-35AVM"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-13T18:09:04Z",
+          "channelId": "UCG98giOsUxIlXV0rNUhxLew",
+          "title": "Paparazzi Proof Driveway in New York City #shorts",
+          "description": "Have you ever seen a Paparazzi-Proof Tunnel Tag a celebrity that would love this as their driveway  This is the driveway for ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/APN48-35AVM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/APN48-35AVM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/APN48-35AVM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Ryan Serhant",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-13T18:09:04Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "WgmkS3RYAGbm7wJkeCW-kTiWELY",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "MSfguRjXVE0"
+        },
+        "snippet": {
+          "publishedAt": "2020-04-30T22:00:09Z",
+          "channelId": "UCQ-JKqNo_T0yoeDZff1y7Kw",
+          "title": "The Best Views of New York City in 4K - Short Preview Video",
+          "description": "This preview will teleport you to the city in the clouds, New York! New York City boasts one of the world's most iconic skylines and ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/MSfguRjXVE0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/MSfguRjXVE0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/MSfguRjXVE0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "4K Urban Life",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-04-30T22:00:09Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "2MJlLj5_mGZbtKqCjGFrmjBIXcg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "sLiw4JSQj1c"
+        },
+        "snippet": {
+          "publishedAt": "2023-05-26T20:28:36Z",
+          "channelId": "UCK-ezPhFrFkhRweh6_JYXkg",
+          "title": "NEW YORK CITY Skyline Views from the Hudson River! #shorts #newyork #hudsonriver #newyorksunset",
+          "description": "shorts.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/sLiw4JSQj1c/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sLiw4JSQj1c/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sLiw4JSQj1c/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "US Travelers",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-05-26T20:28:36Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "3iyJVUNGhu_01WKBpjGnWmN2Uss",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "6tNpE2QTaCA"
+        },
+        "snippet": {
+          "publishedAt": "2023-06-11T14:54:30Z",
+          "channelId": "UCK-ezPhFrFkhRweh6_JYXkg",
+          "title": "Wait for the view!!! ☺️  #shorts #newyork #skyline #hudsonriver",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6tNpE2QTaCA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6tNpE2QTaCA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6tNpE2QTaCA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "US Travelers",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-06-11T14:54:30Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "MLd1DS8PD-H2Xju2axEfBDvV5C8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "pTLQXT4T7NY"
+        },
+        "snippet": {
+          "publishedAt": "2022-10-15T12:10:35Z",
+          "channelId": "UCOfZZnrSIwSZczyVGiDIZSw",
+          "title": "The Beauty of New York City in Short Shorts! #travel #NYC",
+          "description": "For more videos please click the link below https://bit.ly/3TaXeao https://bit.ly/3TaXeao #Short #travel #NewYork #NYC.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pTLQXT4T7NY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pTLQXT4T7NY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pTLQXT4T7NY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "TouristCharms",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-10-15T12:10:35Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "J01KW9LgfeyDIO13ggrLZIe4D30",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "iNNlxGici1k"
+        },
+        "snippet": {
+          "publishedAt": "2023-05-14T00:10:00Z",
+          "channelId": "UCuo7xjVZcMdhLKzlU6ZL0lA",
+          "title": "NEW YORK CITY 🗽 #Beautiful View 😍Subscribe If you #Love this Shot❤#shorts #nyc #newyork #usa",
+          "description": "Beautiful New York City Spot for Best View Times Square New York City New York City Beautiful New York City Moments ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/iNNlxGici1k/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/iNNlxGici1k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/iNNlxGici1k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "The World Eyesight",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-05-14T00:10:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "At8mz6oOIk4hd94-c4MlfJDugLc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "vjppClFrovg"
+        },
+        "snippet": {
+          "publishedAt": "2021-10-01T16:00:30Z",
+          "channelId": "UC0KW2Sw4kbi5mgNn2mRG8bg",
+          "title": "Manhattan NYC Skyline View from The Edge #shorts",
+          "description": "Manhattan NYC Skyline View from The Edge #shorts Subscribe: @toomutchtori @underwatertorishorts @underwatertorishorts.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/vjppClFrovg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/vjppClFrovg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/vjppClFrovg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "TooMutchTori",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-10-01T16:00:30Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Nd5Jc3KkE8my-3tsQ8c4tWGa58Q",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "FYfbR3Xwc3g"
+        },
+        "snippet": {
+          "publishedAt": "2022-01-03T17:35:10Z",
+          "channelId": "UCKtW4czIzn-LW9IzG1h5kwA",
+          "title": "Insane Drone Video of New York City EMPTY #shorts",
+          "description": "NYC #NewYorkCity #Drone The opening scene of The Morning Show Season 2 was shot during the peak of the pandemic ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/FYfbR3Xwc3g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/FYfbR3Xwc3g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/FYfbR3Xwc3g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "ONE37pm",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-01-03T17:35:10Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "9PuTgwOkjKpSWggGx7bXaHbEvS0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "NrvJcyyYccw"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-20T22:00:09Z",
+          "channelId": "UCnZFEX8fitEJX9amUB_xwHA",
+          "title": "New York view from the edge - skyline #honeymoon #travel #shorts #shortsvideo",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/NrvJcyyYccw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/NrvJcyyYccw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/NrvJcyyYccw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Practically Pamela",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-20T22:00:09Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "jJbxvm3NalPNeFXH5xuI7OSv4SU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "E0IPC8oEr0g"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-25T15:03:30Z",
+          "channelId": "UC_nrtO_tNRjccsQQh5-o0FA",
+          "title": "The View of New York City - Joe Rogan #shorts #nyc",
+          "description": "New York City, also called NYC, is one of the most populated cities in the United states. Although it can be a mess of a city ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/E0IPC8oEr0g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/E0IPC8oEr0g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/E0IPC8oEr0g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "InspiredOutlet",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-25T15:03:30Z"
+        }
+      }
+    ]
+  }
+  

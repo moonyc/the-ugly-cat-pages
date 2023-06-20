@@ -3,18 +3,21 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Banner from '@/components/banner/banner'
 import Section from '@/components/card/sectionCard'
-import { getVideos } from '@/lib/videos'
+import { getPopularVideos, getVideos } from '@/lib/videos'
 import NavBar from '@/components/navigation/navbar'
+import { startFetchMyQuery } from '@/lib/db/hasura'
 
 
 export const getServerSideProps = async () => {
   const newyorkVideos = await getVideos('new york skyline view shorts')
   const franLebowitz = await getVideos('fran lebowitz')
+  const popularVideos = await getPopularVideos()
   
   return {
     props: {
       newyorkVideos,
-      franLebowitz
+      franLebowitz,
+      popularVideos
     }
   }
 }
@@ -22,6 +25,7 @@ export const getServerSideProps = async () => {
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home(props) {
+  startFetchMyQuery()
   return (
     <>
       <Head>
@@ -43,6 +47,7 @@ export default function Home(props) {
         <section>
           <Section title="New York" videos={props.newyorkVideos} size="large"/>
           <Section title="Fran" videos={props.franLebowitz} size="small"/>
+          <Section title="Popular" videos={props.popularVideos} size="small"/>
         </section>
       </main>
     </>
