@@ -5,7 +5,7 @@ import Banner from '@/components/banner/banner'
 import Section from '@/components/card/sectionCard'
 import { getPopularVideos, getVideos } from '@/lib/videos'
 import NavBar from '@/components/navigation/navbar'
-import { startFetchMyQuery } from '@/lib/db/hasura'
+
 
 
 export const getServerSideProps = async () => {
@@ -25,7 +25,6 @@ export const getServerSideProps = async () => {
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home(props) {
-  startFetchMyQuery()
   return (
     <>
       <Head>
