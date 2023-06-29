@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }) {
   const router = useRouter()
   const [isLoading, setIsLoading]= useState(true)
 
+
   useEffect(() => {
     const handleLogin = async () => {
       const isLoggedIn = await magic.user.isLoggedIn()
@@ -18,7 +19,7 @@ export default function App({ Component, pageProps }) {
       }
     }
     handleLogin()
-  }, [ ])
+  }, [])
 
   useEffect(() => {
     const handleComplete = () => {
