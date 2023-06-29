@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
       }
     }
     handleLogin()
-  }, [])
+  }, [router])
 
   useEffect(() => {
     const handleComplete = () => {
