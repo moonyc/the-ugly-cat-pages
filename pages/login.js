@@ -56,10 +56,22 @@ export default function Login() {
             if(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
                 try {
                     const didToken = await magic.auth.loginWithEmailOTP({ email })
-                    console.log(didToken)
+                     
                     if(didToken) {
-                        router.push('/')
-                        setIsLoading(false)
+                        const response = await fetch('/api/login', {
+                            method: 'POST',
+                            headers: {
+                                "Authorization": `Bearer ${didToken}`,
+                                'Content-Type': 'application/json'
+                            }
+                        })
+                        const loggedInResponse = await response.json()
+                        if(loggedInResponse.done) {
+                            router.push('/')
+                        } else {
+                            setIsLoading(false)
+                            setUserMsg("Something went wrong 😿")
+                        }
                     }
 
                 } catch (error) {
