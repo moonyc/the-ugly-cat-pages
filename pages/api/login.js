@@ -25,7 +25,6 @@ export default async function login(req, res) {
         process.env.JWT_SECRET
         )
             const isNewUserQuery = await isNewUser(token, metadata.issuer)
-            console.log(isNewUserQuery)
             isNewUserQuery && (await createNewUser(token, metadata))
             setTokenCookie(token, res)
             res.send({done: true})
